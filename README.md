@@ -1,6 +1,6 @@
 # REST_requests_for_PetFriends_24.4.1
 
-Реализация REST-запросов к API сайта "Pet Friends" https://petfriends.skillfactory.ru:
+Реализация позитивных тестов REST-запросов к API сайта "Pet Friends" https://petfriends.skillfactory.ru:
 - GET - получение API-ключа;
 - GET - получение списка "своих питомцев";
 - POST - добавление информации о новом питомце;
@@ -9,8 +9,8 @@
 
 Подробнее о директориях:
 1. tests - файл с тестами и директория "images".
-- 1.1. test_pet_friends.py - позитивные тесты с подробным описанием.
-- 1.2. images - изображения для теста "Добавление питомца" и добавления фото питомца.
+- 1.1. test_pet_friends.py - тесты с подробным описанием.
+- 1.2. images - изображения для тестов.
 2. api.py - библиотека с REST-запросами к API сайта "Pet Friends".
 3. settings.py - информация о валидных логине и пароле.
 
